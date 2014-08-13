@@ -1,0 +1,256 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Priority Health Global Sprint Demo</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/ph.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+        if (window.location.search.match(/print-pdf/gi)) {
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = 'css/print/pdf.css';
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+    </script>
+
+    <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+
+    <div class="reveal">
+
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section>
+                <h1>Priority Quote 2.1</h1>
+                <h2>Sprint 49 Review/Demo</h2>
+                <h3>August 13, 2014</h3>
+                <p>
+                    <label>Project Sponsor:</label>
+                    Joan Budden<br />
+                    <label>Product Owner:</label>
+                    Michelle Storz
+                </p>
+            </section>
+
+            <section>
+                <h2>Project Team </h2>
+                <ul style="float: left; width: 45%; font-size: .8em;">
+                    <li>Michelle Storz - Product Owner</li>
+                    <li>Kellie Kettner - Small Group SME</li>
+                    <li>Tara Johnson - Individual SME</li>
+                    <li style="list-style-type: none;">&nbsp;</li>
+                    <li style="list-style-type: none; text-decoration: underline;">AgentX</li>
+                    <li>Matt Shanahan - Technical Lead</li>
+                    <li>Yogi Alle - Senior Developer</li>
+                    <li>Andrea Houg - Developer</li>
+                    <li>Gary Davis - Developer</li>
+                    <li>Tom Stoepker - Developer</li>
+                    <li>Sri Yattapu - QA</li>
+                </ul>
+                <ul style="float: right; width: 45%; font-size: .8em;">
+                    <li>Erin Cunningham - Project Manager</li>
+                    <li>Diane O'Shea - Business Analyst</li>
+                    <li style="list-style-type: none;">&nbsp;</li>
+                    <li style="list-style-type: none; text-decoration: underline;">Fantastic Four</li>
+                    <li>Chris Reader - Developer</li>
+                    <li>Justin Menkveld - Developer</li>
+                    <li>Ram Radhakrishnan - Developer</li>
+                    <li>Savan Patel - Developer</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Project Objective</h2>
+                <p>
+                    This project will result in an Agent-based quoting and enrollment tool for Small Group and Individual new business and renewals.  This new tool will be the next generation Agent user experience which will be an integrated set of quoting and enrollment tools developed from past experience and lessons learned. 
+                </p>
+            </section>
+
+            <section>
+                <h2>Project Timeline</h2>
+                <img src="images/49_11timeline.JPG" alt="Timeline Graphic" />
+            </section>
+
+            <section>
+                <section>
+                    <h2>Project Updates</h2>
+                    <h3>Scope</h3>
+                    <ul>
+                        <lh>Original scope at risk</lh>
+                        <li>Small Group to Individual transition</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Project Updates</h2>
+                    <h3>Budget</h3>
+                    <p>Budget increase due to utilizing the Fantastic Four for 3-4 sprints</p>
+                </section>
+                <section>
+                    <h2>Project Updates</h2>
+                    <h3>Resources</h3>
+                    <ul>
+                        <li>The Fantastic Four (ROSE team) have joined us for 3-4 sprints to help complete individual line of business scope.</li>
+                        <li>Yogi is back full time</li>
+                    </ul>
+                </section>
+            </section>
+
+            <section>
+                <h2>Team Velocity</h2>
+                <img src="images/49_11velocity.JPG" alt="Team Velocity Image" />
+            </section>
+
+            <section data-background-transition="slide">
+                <section>
+                    <h2>Sprint 48 Review</h2>
+                    <ul>
+                        <li>Update routing of quote statuses to appropriate screens (always routed to group details before)</li>
+                        <li>Initial load of Small Group / Individual rates</li>
+                        <li>Database / centrally maintained business rules</li>
+                        <li>Individual funcationality
+                            <ul>
+                                <li>Research FFM Redirect<ul><li>Able to use code / API from Individual Shopping app</li></ul></li>
+                                <li>Individual Short term quote</li>
+                                <li>Individual Open / Special Enrollment</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Sprint 48 Review</h2>
+                    <ul>
+                        <li>
+                            Group functionality
+                            <ul>
+                                <li>New Group application<ul><li>Same code for new group and renewal group - easy maintenance</li></ul></li>
+                                <li>Group census page updates<ul><li>Remove unnecessary fields</li>
+                                    <li>Import census data with template</li>
+                                    </ul></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+
+            <section>
+                <h2>Experiments / <br />Innovation</h2>
+                <ul>
+                    <li>No Experiments or Innovations this sprint</li>
+                </ul>
+            </section>
+
+            <section>
+                <section>
+                    <h2>Definition of Done</h2>
+                    <h3>Story</h3>
+                    <ul style="font-size: .8em;">
+                        <li>All code checked in - developer</li>
+                        <li>All unit tests passing - developer</li>
+                        <li>All Acceptance tests (performed in test environment) identified, written and passing - project manager identifies and documents acceptance, product owner passes</li>
+                        <li>Functional testing - QA engineer (optional - not necessary for every sprint)</li>
+                        <li>Must pass PH code reviewer process
+                                <ul>
+                                    <li>
+                                    Unit Test Code Coverage for all applicable architecture layers (business logic layer)
+                                    <li>Compliance with Development Team Code Standards (StyleCop)</li>
+                                </ul>
+                        </li>
+                        <li>Could be added to a change control</li>
+                        <li>Passes team member code review</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Definition of Done</h2>
+                    <h3>Sprint</h3>
+                    <ul>
+                        <li>All story criteria, plus...</li>
+                        <li>100% of committed stories complete as defined above</li>
+                        <li>All stories are able to be added to a change control (ready for a soft launch if necessary)</li>
+                        <li>Known issues must be documented within sprint (can be resolved in later sprint)</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Definition of Done</h2>
+                    <h3>Release</h3>
+                    <ul>
+                        <li>All sprint criteria, plus...</li>
+                        <li>Deployment packages (change control) created</li>
+                        <li>Change Control request completed</li>
+                        <li>All Test Suites passing</li>
+                        <ul>
+                            <li>Unit Testing</li>
+                            <li>Integration</li>
+                            <li>Front End</li>
+                        </ul>
+                        <li>Documentation of Processes and Procedures to ensure affected parties are educated properly</li>
+                        <li>System documentation (internal PH wiki)</li>
+                    </ul>
+                </section>
+            </section>
+
+            <section>
+                <h2>Demo</h2>
+                <a href="https://wwwtest.internal.priorityhealth.com/app/priority-quote" target="_blank">Priority Quote 2.1 Test</a><br />
+                <a href="https://wwwdev.internal.priorityhealth.com/app/priority-quote" target="_blank">Priority Quote 2.1 Dev</a>
+            </section>
+
+        </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+            transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+            // Parallax scrolling
+            // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+            // parallaxBackgroundSize: '2100px 900px',
+
+            // Optional libraries used to extend on reveal.js
+            dependencies: [
+                { src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+                { src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+                { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () { return !!document.body.classList; } },
+                { src: 'plugin/notes/notes.js', async: true, condition: function () { return !!document.body.classList; } }
+            ]
+        });
+
+    </script>
+
+</body>
+</html>
